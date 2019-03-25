@@ -1,10 +1,5 @@
 import _ from 'lodash';
 
-const a = "Hello, ",
-      b = "Jack!";
-
-console.log( a + b );
-
 function component() {
   let element = document.createElement('div');
 
@@ -15,6 +10,11 @@ function component() {
 }
 
 document.body.appendChild(component());
+
+const a = "Hello, ",
+      b = "Jack!";
+
+console.log( a + b );
 
 
   
